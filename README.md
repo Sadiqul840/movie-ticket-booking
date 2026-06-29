@@ -86,6 +86,26 @@ Then open **http://localhost:8080** in your browser.
 | DELETE | `/api/bookings/{id}` | User | Cancel a booking |
 | POST | `/api/movies` `/api/theaters` `/api/shows` | Admin | Manage catalog |
 
+
+
+## Future Enhancements
+
+- Payment Gateway Integration
+- Email Notifications
+- Movie Poster Upload
+- Docker Support
+- MySQL/PostgreSQL Production Database
+- Redis-based Seat Locking
+- Responsive Mobile UI
+
+## Author
+
+**Sadiqul Ameen**
+
+- GitHub: https://github.com/Sadiqul840
+- LinkedIn: <https://www.linkedin.com/in/sadiqul-ameen/>
+- Email: <sadiqull840@gmail.com>
+
 ## Notable Design Decisions
 
 - **Seat locking is enforced at booking time** inside a `synchronized` + `@Transactional` service method to avoid double-booking race conditions (a real system would use optimistic locking/`@Version` or a Redis-based lock for horizontal scaling — see interview Q&A below).
