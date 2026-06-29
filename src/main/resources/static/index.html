@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marquee — Movie Ticket Booking</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand"><span class="bulb"></span> MARQUEE</div>
+  <div class="nav-links" id="navLinks">
+    <button data-view="home" class="active">Movies</button>
+    <button data-view="bookings">My Bookings</button>
+    <button data-view="admin" id="adminLink" style="display:none;">Admin</button>
+  </div>
+  <div id="authArea"></div>
+</div>
+
+<div id="app"></div>
+
+<footer>Marquee Movie Booking System &mdash; built with Spring Boot + Vanilla JS &middot; For demo &amp; interview practice purposes</footer>
+
+<div id="modalRoot"></div>
+<div id="toastRoot"></div>
+
+<script src="/js/app.js"></script>
+</body>
+</html>
