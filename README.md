@@ -2,6 +2,25 @@
 
 A full-stack movie ticket booking application built with **Spring Boot 3** (Java 17), **Spring Data JPA**, **Spring Security + JWT**, an embedded **H2** database, and a **vanilla HTML/CSS/JS** single-page frontend served directly from Spring Boot's static resources (no separate frontend build step needed).
 
+
+# Screenshots
+
+## Home Page
+
+![Home](screenshots/home.png)
+
+## Movie Details
+
+![Movie Details](screenshots/movie-details.png)
+
+## Seat Selection
+
+![Seat Selection](screenshots/seat-selection.png)
+
+## Booking Success
+
+![Booking Success](screenshots/booking-success.png)
+
 ## Features
 
 - Browse movies, search by title, view showtimes grouped by theater
